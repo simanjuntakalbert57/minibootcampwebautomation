@@ -14,7 +14,7 @@ mvn clean install
 
 ### 3. Run the tests:
 ```bash
-mvn test -Dsurefire.suiteXmlFiles=testng.xml
+mvn test -D surefire.suiteXmlFiles=testng.xml
 ```
 
 
@@ -27,7 +27,7 @@ This project uses **Maven** for build automation and test execution. Follow the 
 To execute the tests using Maven, use the following command:
 
 ```bash
-mvn test -Dsurefire.suiteXmlFiles=testng.xml
+mvn test -D surefire.suiteXmlFiles=testng.xml
 ```
 
 ### 2. Run Tests with Parallel
